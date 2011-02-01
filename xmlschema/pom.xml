@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>jbundle-util-wsdl-reactor</artifactId>
+    <groupId>org.jbundle.util.wsdl</groupId>
+    <version>0.7.7-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>org.jbundle.util.wsdl.xmlschema</artifactId>
+  <name>jbundle-util-wsdl-xmlschema - xml schema access</name>
+  <packaging>bundle</packaging>
+
+  <properties>
+    <jbundle.package>org.w3</jbundle.package>	<!-- Bundle packages to export -->
+  </properties>  
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jvnet.jaxb2.maven2</groupId>
+        <artifactId>maven-jaxb2-plugin</artifactId>
+        <version>${maven-jaxb2-pluginVersion}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <!-- pluginRepositories>
+         <pluginRepository> 
+            <id>maven2-repository.download.java.net</id> 
+            <url>http://download.java.net/maven/2</url>
+        </pluginRepository>
+  </pluginRepositories -->
+  
+</project>

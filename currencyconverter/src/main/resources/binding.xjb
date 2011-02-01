@@ -1,0 +1,20 @@
+<jxb:bindings version="1.0"
+               xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <jxb:bindings schemaLocation="currencyconverter.xsd" node="/xs:schema">
+    <jxb:globalBindings
+         fixedAttributeAsConstantProperty="true"
+         collectionType="java.util.Vector"
+         choiceContentProperty="false"
+         typesafeEnumMemberName="generateError"
+         enableFailFastCheck="false"   
+         generateIsSetMethod="false"
+         underscoreBinding="asCharInWord"/>
+
+      <jxb:schemaBindings>
+	  <jxb:package name="net.webservicex.currencyconverter"/>
+      </jxb:schemaBindings>
+  </jxb:bindings>
+
+</jxb:bindings>
+
