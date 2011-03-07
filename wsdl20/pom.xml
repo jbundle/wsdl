@@ -20,7 +20,6 @@
       <plugin>
         <groupId>org.jvnet.jaxb2.maven2</groupId>
         <artifactId>maven-jaxb2-plugin</artifactId>
-        <version>${maven-jaxb2-pluginVersion}</version>
         <executions>
           <execution>
             <goals>
