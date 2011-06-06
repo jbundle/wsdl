@@ -19,6 +19,12 @@
     <jbundleScmPath>util/wsdl</jbundleScmPath>
   </properties>
 
+  <scm>
+    <url>https://github.com/jbundle/jbundle-wsdl</url>
+    <connection>scm:git:git://github.com/jbundle/jbundle-wsdl.git</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/jbundle-wsdl.git</developerConnection>
+  </scm>
+
   <modules>
     <module>xmlschema</module>
     <module>wsdl11</module>
