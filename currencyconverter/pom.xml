@@ -14,7 +14,7 @@
   <packaging>bundle</packaging>
 
   <properties>
-    <jbundle.package>net.webservicex</jbundle.package>	<!-- Bundle packages to export -->
+    <jbundlePackage>net.webservicex</jbundlePackage>	<!-- Bundle packages to export -->
   </properties>  
 
   <build>

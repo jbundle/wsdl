@@ -14,7 +14,10 @@
   <packaging>bundle</packaging>
 
   <properties>
-    <jbundle.package>org.xmlsoap</jbundle.package>	<!-- Bundle packages to export -->
+    <jbundlePackage>org.xmlsoap</jbundlePackage>	<!-- Bundle packages to export -->
+    <jbundlePackageImport>*;resolution:=optional,
+        org.w3._2001.xmlschema;resolution:=optional,
+    </jbundlePackageImport> <!-- Bundle package to import -->
   </properties>  
 
   <build>
