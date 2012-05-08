@@ -16,7 +16,7 @@
   <name>jbundle-util-wsdl - wsdl modules</name>
   
   <properties>
-    <jbundleScmPath>util/wsdl</jbundleScmPath>
+    <projectName>jbundle-util-wsdl</projectName>
   </properties>
 
   <scm>
