@@ -20,9 +20,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/jbundle/jbundle-wsdl</url>
-    <connection>scm:git:git://github.com/jbundle/jbundle-wsdl.git</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/jbundle-wsdl.git</developerConnection>
+    <url>https://github.com/jbundle/wsdl</url>
+    <connection>scm:git:git://github.com/jbundle/wsdl</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/wsdl</developerConnection>
   </scm>
 
   <modules>
