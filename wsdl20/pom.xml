@@ -12,7 +12,7 @@
   <packaging>bundle</packaging>
 
   <properties>
-    <jbundlePackage>org.w3</jbundlePackage>	<!-- Bundle packages to export -->
+    <jbundle-package>org.w3</jbundle-package>	<!-- Bundle packages to export -->
   </properties>  
 
   <build>
