@@ -11,7 +11,7 @@
 
   <groupId>org.jbundle.util.wsdl</groupId>
   <artifactId>jbundle-util-wsdl-reactor</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.4</version>
   <packaging>pom</packaging>
   <name>jbundle-util-wsdl - wsdl modules</name>
   
