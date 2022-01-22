@@ -33,4 +33,22 @@
     <module>currencyconverter</module>
   </modules>
 
+  <dependencies>
+    <dependency>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+    </dependency>
+    <!--dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>${jakarta.xml.bind-version}</version>
+      <scope>runtime</scope>
+    </dependency-->
+    <!--dependency>
+      <groupId>com.sun.activation</groupId>
+      <artifactId>jakarta.activation</artifactId>
+      <scope>runtime</scope>
+    </dependency-->
+  </dependencies>
+
 </project>
