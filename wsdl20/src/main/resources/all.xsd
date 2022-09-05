@@ -3,6 +3,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://www.w3.org/2006/01/wsdl" targetNamespace="http://www.w3.org/2006/01/wsdl" elementFormDefault="qualified" finalDefault="" blockDefault="" attributeFormDefault="unqualified"> 
 
   <!-- Include all the schemas that you will be using -->
-  <xs:include schemaLocation="http://www.w3.org/2006/01/wsdl/wsdl20.xsd"/>
+  <xs:include schemaLocation="https://www.w3.org/2006/01/wsdl/wsdl20.xsd"/>
 
 </xs:schema>
